@@ -12,7 +12,7 @@ phost="%{$fg_bold[white]%}%m%{$reset_color%}"
 pdir="%{$fg_bold[blue]%}%~%{$reset_color%}"
 pprompt="%{$pcolor%}$pchar%{$reset_color%}"
 
-PROMPT='$puser@$phost:$pdir$pprompt$(git_prompt_info) '
+PROMPT='$puser@$phost:$pdir$(git_prompt_info)$pprompt '
 RPROMPT='[%*]'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[yellow]%}⇵(%{$reset_color%}"
